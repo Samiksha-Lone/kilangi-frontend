@@ -1,6 +1,6 @@
 # Kilangi Jewellery – Frontend Assignment
 
-Responsive eCommerce homepage for the **Kilangi** jewellery brand, implemented from the provided desktop and mobile design PDFs using **HTML, CSS and vanilla JavaScript**. The goal of this project is to match the UI closely and showcase clean code plus thoughtful interactions.
+Responsive eCommerce homepage for the **Kilangi** jewellery brand, implemented from the provided desktop and mobile design PDFs using **HTML, CSS and JavaScript**. The goal of this project is to match the UI closely and showcase clean code plus thoughtful interactions.
 
 ---
 
@@ -18,18 +18,14 @@ Responsive eCommerce homepage for the **Kilangi** jewellery brand, implemented f
 - **HTML5** – semantic structure for all sections.
 - **CSS3** – custom layout, typography, responsive design.
 - **JavaScript (ES6+)** – DOM manipulation and interactions.
-- **(Optional in your case)** Deployed on _Netlify / Vercel / GitHub Pages_.
+- Deployed on Vercel.
 
 ---
 
 ## 🚀 Live Demo
 
-- **Live URL:** `https://your-deployment-url.com`
+- **Live URL:** `https://kilangi-frontend.vercel.app/`
 - **Repository:** `https://github.com/Samiksha-Lone/kilangi-frontend.git`
-
-_Update these links with your actual URLs._
-
----
 
 ## 📂 Project Structure
 

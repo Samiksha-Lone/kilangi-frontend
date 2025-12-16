@@ -1,6 +1,3 @@
-// app.js – interactions and dynamic content
-
-// Simple product data for the Bestseller section
 const PRODUCTS = [
   {
     id: 1,
@@ -51,7 +48,6 @@ const PRODUCTS = [
 
 let cartCount = 0;
 
-// Render products into Bestseller grid
 function renderProducts(filter = "all") {
   const grid = document.getElementById("bestsellerGrid");
   if (!grid) return;
@@ -82,7 +78,6 @@ function renderProducts(filter = "all") {
     .join("");
 }
 
-// Tabs behaviour (desktop + mobile)
 function initTabs() {
   const tabButtons = document.querySelectorAll(".tab-btn");
   const panels = document.querySelectorAll(".tab-panel");
@@ -107,7 +102,6 @@ function initTabs() {
   });
 }
 
-// Mobile menu
 function initMobileMenu() {
   const toggle = document.getElementById("mobileMenuToggle");
   const menu = document.getElementById("mobileMenu");
@@ -125,7 +119,6 @@ function initMobileMenu() {
   });
 }
 
-// Toast
 let toastTimeout;
 function showToast(message) {
   let el = document.getElementById("toast");
@@ -164,7 +157,6 @@ function showToast(message) {
   }, 2400);
 }
 
-// Cart buttons
 function initCart() {
   const grid = document.getElementById("bestsellerGrid");
   const cartCountEl = document.getElementById("cartCount");
@@ -180,7 +172,6 @@ function initCart() {
   });
 }
 
-// Smooth scroll for hero CTA and gifts buttons
 function initScrollLinks() {
   const exploreBtn = document.getElementById("exploreBtn");
   const anniversaryBtn = document.getElementById("anniversaryBtn");
@@ -200,13 +191,11 @@ function initScrollLinks() {
   }
 }
 
-// Footer year
 function setYear() {
   const y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
 }
 
-// Init all when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
   renderProducts("all");
   initTabs();
